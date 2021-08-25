@@ -27,4 +27,18 @@ public class ProductoServiceImpl implements IProductoService{
 		return productoDao.findById(id).orElse(null);
 	}
 
+	@Override
+	@Transactional// sin el read porque va a ser para solo de escritura
+	public Producto saveReturn(Producto producto) {
+		return productoDao.save(producto);
+	}
+
+	@Override 
+	@Transactional// sin el read porque va a ser para solo de escritura
+	public void eliminaPorId(Long id) {
+		productoDao.deleteById(id);		
+	}
+	
+	
+
 }

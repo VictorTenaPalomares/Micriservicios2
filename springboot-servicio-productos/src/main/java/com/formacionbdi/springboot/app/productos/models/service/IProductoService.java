@@ -8,4 +8,13 @@ public interface IProductoService {
 
 	public List<Producto> findAll();
 	public Producto findById(Long id);
+	
+    //crea un producto y lo devuelve
+	public Producto saveReturn(Producto producto);
+	
+	// elimina a través del id del producto
+	public void eliminaPorId(Long id);
+	
+		
+	
 }
