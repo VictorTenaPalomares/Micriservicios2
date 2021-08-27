@@ -16,7 +16,6 @@
 			<item value="org.eclipse.wst.web.ui"/>
 			<item value="org.eclipse.jst.ws.ui.new"/>
 			<item value="org.eclipse.wst.XMLCategory"/>
-			<item value="org.eclipse.ui.Examples"/>
 		</list>
 	</section>
 	<section name="ImportExportAction">
@@ -24,5 +23,7 @@
 		<list key="ImportExportPage.STORE_EXPANDED_IMPORT_CATEGORIES">
 			<item value="org.eclipse.m2e"/>
 		</list>
+	</section>
+	<section name="EditorSelectionDialog">
 	</section>
 </section>
